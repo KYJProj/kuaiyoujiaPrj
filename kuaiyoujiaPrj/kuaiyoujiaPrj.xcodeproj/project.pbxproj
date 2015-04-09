@@ -10,9 +10,7 @@
 		79A565941AD6230B000F8BB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A565931AD6230B000F8BB9 /* main.m */; };
 		79A565971AD6230B000F8BB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A565961AD6230B000F8BB9 /* AppDelegate.m */; };
 		79A5659A1AD6230B000F8BB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A565991AD6230B000F8BB9 /* ViewController.m */; };
-		79A5659D1AD6230B000F8BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A5659B1AD6230B000F8BB9 /* Main.storyboard */; };
 		79A5659F1AD6230B000F8BB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A5659E1AD6230B000F8BB9 /* Images.xcassets */; };
-		79A565A21AD6230B000F8BB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79A565A01AD6230B000F8BB9 /* LaunchScreen.xib */; };
 		79A565AE1AD6230B000F8BB9 /* kuaiyoujiaPrjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A565AD1AD6230B000F8BB9 /* kuaiyoujiaPrjTests.m */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +32,7 @@
 		79A565961AD6230B000F8BB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79A565981AD6230B000F8BB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		79A565991AD6230B000F8BB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		79A5659C1AD6230B000F8BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79A5659E1AD6230B000F8BB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		79A565A11AD6230B000F8BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		79A565A71AD6230B000F8BB9 /* kuaiyoujiaPrjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kuaiyoujiaPrjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A565AC1AD6230B000F8BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A565AD1AD6230B000F8BB9 /* kuaiyoujiaPrjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kuaiyoujiaPrjTests.m; sourceTree = "<group>"; };
@@ -85,9 +81,7 @@
 				79A565961AD6230B000F8BB9 /* AppDelegate.m */,
 				79A565981AD6230B000F8BB9 /* ViewController.h */,
 				79A565991AD6230B000F8BB9 /* ViewController.m */,
-				79A5659B1AD6230B000F8BB9 /* Main.storyboard */,
 				79A5659E1AD6230B000F8BB9 /* Images.xcassets */,
-				79A565A01AD6230B000F8BB9 /* LaunchScreen.xib */,
 				79A565911AD6230B000F8BB9 /* Supporting Files */,
 			);
 			path = kuaiyoujiaPrj;
@@ -199,8 +193,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A5659D1AD6230B000F8BB9 /* Main.storyboard in Resources */,
-				79A565A21AD6230B000F8BB9 /* LaunchScreen.xib in Resources */,
 				79A5659F1AD6230B000F8BB9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +234,6 @@
 			targetProxy = 79A565A81AD6230B000F8BB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		79A5659B1AD6230B000F8BB9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79A5659C1AD6230B000F8BB9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		79A565A01AD6230B000F8BB9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79A565A11AD6230B000F8BB9 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		79A565AF1AD6230B000F8BB9 /* Debug */ = {
@@ -414,6 +387,7 @@
 				79A565B31AD6230B000F8BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79A565B41AD6230B000F8BB9 /* Build configuration list for PBXNativeTarget "kuaiyoujiaPrjTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +396,7 @@
 				79A565B61AD6230B000F8BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
